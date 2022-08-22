@@ -10,19 +10,36 @@
 header{
     background: #753c9d;
 }
-
+.violeta{
+    background: #753c9d;
+}
+main{
+    background: #ededed;
+}
 .portada img{
     height: min(100%, 12em);
     width: min(100%, 12em);
 }
-
+footer{
+    background: #753c9d;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+  }
 table, th, td{
     border: 1px slateblue solid;
     border-collapse: collapse;   
 
 }
-table {
+.crow{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 0.5px;
+
+}
+table, h1, h2 {
     width: 50%;
+    margin: 0 auto;
 }
 th, tr ,td{
     padding: 10px;
